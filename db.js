@@ -3,6 +3,8 @@ if (!global.__base) {
     global.__base = require('path').join(__dirname, '../');
 }
 
+console.log("Testing");
+
 const mysql = require('mysql');
 const utils = require(`${__base}/utils`);
 const C = require(`${__base}/constants`);
